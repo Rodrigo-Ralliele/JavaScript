@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidades</title>
+</head>
+
+<body>
+    <h1>Nacionalidade</h1>
+    <h2>Digite seu País</h2>
+    <input type="text" name="nactxt" id="nactxt" placeholder="Digite aqui...">
+    <input type="button" value="verificar" onclick="Receber()">
+    <div id="res">
+
+
+    </div>
+    <script>
+        function Receber() {
+            var nac = document.getElementById('nactxt')
+            nac = "Brasil"
+            var nacb = (nac.text)
+            var res = document.getElementById('res')
+            if (nac ! 'Brasil') {
+                res.innerHTML = `<p>Você é <strong>Brasileiro</strong></p>`
+            }
+            else {
+                res.innerHTML = `Você é <strong>Estrangeiro</strong> `
+            }
+        }
+       
+    </script>
+</body>
+
+</html>

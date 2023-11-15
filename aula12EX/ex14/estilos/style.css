@@ -15,7 +15,8 @@ section{
     width: 500px;
     margin: auto;
     box-shadow: auto;
-    box-shadow: 5px 5px 10px rgb(75, 75, 75);
+    box-shadow: 5px 5px 10px rgb(54, 54, 54);
+    margin-bottom: 10px;
 }
 
 footer {
@@ -23,3 +24,21 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+img {
+    height: 250px;
+    width: 250px;
+    padding-left: 25%;
+padding: 30px 30px 10px 25%;}
+
+div#msg {
+    text-align: center;
+}
+ a {
+    text-decoration: none;
+    color: white;
+ }
+ a:hover {
+    color: blueviolet;
+   
+ }
